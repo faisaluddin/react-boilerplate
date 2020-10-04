@@ -1,0 +1,11 @@
+@import "styles/main";
+
+.pageContainer {
+  min-height: 100vh;
+  @include flex(column);
+}
+
+.mainContent {
+  @include flex(row, center, center);
+  flex-grow: 1;
+}

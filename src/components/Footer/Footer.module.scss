@@ -1,0 +1,7 @@
+@import "styles/main";
+
+.footer {
+  height: 50px;
+  @include flex(row, center, center);
+  border: $color-primary 1px solid;
+}

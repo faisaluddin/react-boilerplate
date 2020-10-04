@@ -1,0 +1,6 @@
+@import "/styles/main";
+
+$body-bg: $color-primary-dark;
+$body-color: $color-secondary;
+// Override the bootstrap varibles here to customize the theme
+@import "node_modules/bootstrap/scss/bootstrap";

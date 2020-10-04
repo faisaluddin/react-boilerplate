@@ -1,0 +1,7 @@
+@import "styles/main";
+
+.navbar {
+  @include flex(row, center, center);
+  border: $color-primary 1px solid;
+  height: 50px;
+}
